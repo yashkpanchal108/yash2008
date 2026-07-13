@@ -1,5 +1,6 @@
 #include<stdio.h>
 
-void main(){
- prinf("this is my page")
+void main (){
+    printf("hello c language\n");
+    printf("hello again");
 }
