@@ -1,0 +1,70 @@
+Q1.Install GCC on your computer and verify the installation by running gcc --version in your terminal or command prompt.
+
+-->To set up your C environment, follow the steps for your operating system:
+
+--Windows: Download and install MinGW-w64 via MSYS2 or a direct installer, and make sure to add the bin folder path to your system's Environment Variables (Path).
+
+--Mac: Open your terminal and run xcode-select --install to set up the command-line developer tools.
+
+--Linux: Open your terminal and run sudo apt update && sudo apt install build-essential.
+
+-->Verification:
+	Once installed, restart your terminal or command prompt and run the following command: gcc --version
+
+Q2.Open VS Code or DevC++ and create a new file named hello.c. Write a C program that prints 'Hello, Instagram World!' to the console.
+
+-->Create a new file named hello.c in VS Code or DevC++ and paste the following code. The components are labeled using comments (//):
+
+#include <stdio.h>
+
+int main() {
+    printf("Hello, Instagram World!\n");
+    return 0;
+}
+
+-->Save the file: Make sure the file is saved exactly as hello.c.
+-->Open the Terminal: In VS Code, you can open the integrated terminal by pressing Ctrl + \`` (or Cmd + `` on a Mac).
+-->Compile the code: Run the following GCC command to compile your file:
+
+Q3.Identify and label the header, main function, and return statement in your hello.c program using comments.
+
+**Code**
+// 1. Header file inclusion
+#include <stdio.h>
+
+// 2. Main function where program execution begins
+int main() {
+    
+    // Prints the message to the console
+    printf("Hello, Instagram World!\n");
+
+    // 3. Return statement indicating successful execution
+    return 0;
+}
+-->Header (#include <stdio.h>): This tells the compiler to include the Standard Input Output library, which is necessary to use the printf function.
+
+-->Main Function (int main()): This is the mandatory entry point of any C program. The code inside the curly braces {} is executed when the program runs.
+
+-->Return Statement (return 0;): This ends the main function and returns a value of 0 to the operating system, signaling that the program executed successfully without any errors.
+
+Q4.Compile your hello.c file using the GCC command line (gcc hello.c -o hello) and run the output file to display the message in your terminal.<br><br><em><strong>Hint:</strong> On Windows, the output file will be hello.exe; on Linux/Mac, it will be hello.</em>
+
+1. Open your Terminal or Command Prompt
+Navigate to the directory/folder where you saved your hello.c file using the cd command. For example:
+--cd path/to/your/folder
+
+2. Compile the Program
+Type the compilation command into your terminal and press Enter:
+--gcc hello.c -o hello
+
+3. Run the Output File
+Depending on your operating system, type the appropriate command to run the executable:
+
+On Windows:
+--hello.exe
+
+On Linux / macOS:
+--./hello
+
+Once executed, your terminal will display the output message:
+Hello, Instagram World!

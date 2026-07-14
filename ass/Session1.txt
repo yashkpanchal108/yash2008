@@ -1,0 +1,71 @@
+Q1.Write a short paragraph in your own words defining what a 'program' is and give one real-life example from any app you use daily (like Instagram, Zomato, or Paytm).
+
+-->A program is essentially a structured set of instructions given to a computer to execute a specific task or solve a particular problem. It acts like a digital recipe that guides software on how to behave based on user inputs.
+--Real-Life Example (Instagram): When you double-tap a photo on Instagram, a program runs behind the scenes to recognize that specific input, instantly change the heart icon color to red, and increase the post's like count by one on the server.
+
+Q2.List three popular programming languages you have heard of, and for each, mention whether it is usually compiled, interpreted, or can be both.<br><br><em><strong>Hint:</strong> Think of languages like Java, Python, and JavaScript.</em>
+
+-->Python: Primarily an interpreted language. The code is executed line-by-line, which makes it highly flexible and popular for data science and web development.
+-->Java: Can be both. Java source code is first compiled into intermediate bytecode, which is then interpreted (or further compiled just-in-time) by the Java Virtual Machine (JVM).
+-->C++: A traditionally compiled language. The code is translated directly into machine-readable binary code before running, making it incredibly fast and efficient for systems programming and gaming.
+
+Q3.Draw a flowchart (on paper or using any online tool) for the process of booking a movie ticket on BookMyShow, starting from opening the app to receiving the booking confirmation.
+
+-->Since I cannot draw an image directly, here is a clean text-based flowchart map representing the logic you can easily draw on paper:
+
+**Flowchart**
+[Start] 
+   │
+   ▼
+[Open BookMyShow App]
+   │
+   ▼
+[Select Current Location/City]
+   │
+   ▼
+[Browse & Select Movie]
+   │
+   ▼
+[Choose Theatre, Date, and Show Timing]
+   │
+   ▼
+[Select Preferred Seats]
+   │
+   ▼
+[Proceed to Checkout]
+   │
+   ▼
+[Select Payment Method & Pay]
+   │
+   ▼
+   ├──► Is Payment Successful? ──► (No) ──► [Show Error & Retry Payment]
+   │                                              │
+   └──► (Yes)                                     ▼
+         │                                   [Loop back to Checkout]
+         ▼
+[Receive Booking Confirmation (M-Ticket / SMS / Email)]
+   │
+   ▼
+[End]
+
+Q4.Write down the steps (as an algorithm, using simple numbered instructions) for ordering food on Swiggy — from opening the app to completing payment.
+
+1.Start: Launch the Swiggy application on your mobile device.
+
+2.Set Location: Confirm or enter your current delivery address.
+
+3.Search: Browse the restaurant homepage or use the search bar to look for a specific dish or restaurant.
+
+4.Select Restaurant: Click on your preferred restaurant to open its menu.
+
+5.Add Items: Select the food items, choose variants/add-ons if prompted, and click "Add to Cart".
+
+6.Review Cart: Go to the cart page to verify your order items, quantities, and apply any available discount coupons.
+
+7.Proceed to Pay: Tap on the "Proceed to Pay" or "Place Order" button.
+
+8.Select Payment Gateway: Choose your preferred payment mode (e.g., UPI, Net Banking, Credit/Debit Card, or Wallets).
+
+9.Complete Transaction: Enter your PIN/credentials and authenticate the payment.
+
+10.Order Confirmation: Once payment is verified, the app displays the "Order Placed" screen with an estimated delivery time. (End)
